@@ -17,7 +17,6 @@ BuildRequires:	perl-devel
 BuildRequires:	apache-mod_perl
 BuildRequires:	perl(Apache::Test) >= 1.25
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Apache::AuthCookie allows you to intercept a user's first unauthenticated
