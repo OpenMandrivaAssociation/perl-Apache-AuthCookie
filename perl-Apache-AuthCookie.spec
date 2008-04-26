@@ -1,6 +1,6 @@
 %define module	Apache-AuthCookie
 %define name	perl-%{module}
-%define version 3.11
+%define version 3.12
 %define release %mkrel 1
 
 Name: 		%{name}
@@ -41,6 +41,7 @@ See the POD documentation for more details.
 %make
 
 %check
+export APACHE_TEST_HTTPD=%{_sbindir}/httpd
 %{__make} test
 
 %install
