@@ -15,7 +15,7 @@ Source:		http://www.cpan.org/modules/by-module/Apache/%{module}-%{version}.tar.b
 BuildRequires:	perl-devel
 %endif
 BuildRequires:	apache-mod_perl
-BuildRequires:	perl-libwww
+BuildRequires:	perl-libwww-perl
 BuildRequires:	perl-CGI
 BuildRequires:	perl(Apache::Test) >= 1.25
 BuildArch:	noarch
