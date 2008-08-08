@@ -1,7 +1,7 @@
 %define module	Apache-AuthCookie
 %define name	perl-%{module}
 %define version 3.12
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name: 		%{name}
 Version: 	%{version}
