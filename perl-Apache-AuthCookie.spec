@@ -1,5 +1,5 @@
 %define upstream_name	 Apache-AuthCookie
-%define upstream_version 3.14
+%define upstream_version 3.15
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
