@@ -1,9 +1,9 @@
 %define upstream_name	 Apache-AuthCookie
-%define upstream_version 3.18
+%define upstream_version 3.20
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Perl Authentication and Authorization via cookies
 License:	GPL+ or Artistic
@@ -51,4 +51,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{perl_vendorlib}/Apache
 %{perl_vendorlib}/Apache2
 %{_mandir}/*/*
-

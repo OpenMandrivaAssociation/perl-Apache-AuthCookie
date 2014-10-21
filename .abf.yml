@@ -1,2 +1,4 @@
+removed_sources:
+  Apache-AuthCookie-3.18.tar.gz: 83fb285852367c7b79885f634a76316e88caaf90
 sources:
-  "Apache-AuthCookie-3.18.tar.gz": 83fb285852367c7b79885f634a76316e88caaf90
+  Apache-AuthCookie-3.20.tar.gz: b2b71cd4777d96eec26c043c68a1ac78919ed892
