@@ -1,13 +1,14 @@
 %define upstream_name	 Apache-AuthCookie
+%define upstream_version 3.32
 Name:		perl-%{upstream_name}
-Version:	3.20
-Release:	3
+Version:	3.32
+Release:	1
 
 Summary:	Perl Authentication and Authorization via cookies
 License:	GPL+ or Artistic
 Group:		Development/Perl
 URL:		https://metacpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Apache/%{upstream_name}-%{version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/M/MS/MSCHOUT/Apache-AuthCookie-3.32.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
