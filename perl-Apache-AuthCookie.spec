@@ -2,7 +2,7 @@
 %define upstream_version 3.32
 Name:		perl-%{upstream_name}
 Version:	3.32
-Release:	4
+Release:	5
 
 Summary:	Perl Authentication and Authorization via cookies
 License:	GPL+ or Artistic
@@ -43,12 +43,13 @@ perl Makefile.PL INSTALLDIRS=vendor
 # soft: do not fail package on test failures
 set +e
 #export APACHE_TEST_HTTPD=%{_sbindir}/httpd
-#make test
+#make test || :
 
 %install
 %makeinstall_std
 
 %files
+%{perl_vendorlib}/Apache2_4
 %doc Changes README
 %{perl_vendorlib}/Apache
 %{perl_vendorlib}/Apache2
