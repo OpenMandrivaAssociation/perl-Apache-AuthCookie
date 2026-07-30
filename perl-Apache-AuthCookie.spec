@@ -2,7 +2,7 @@
 %define upstream_version 3.32
 Name:		perl-%{upstream_name}
 Version:	3.32
-Release:	2
+Release:	3
 
 Summary:	Perl Authentication and Authorization via cookies
 License:	GPL+ or Artistic
